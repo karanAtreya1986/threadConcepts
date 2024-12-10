@@ -1,0 +1,19 @@
+Thread –
+Light weight sub process. No memory allocated to thread. Smallest unit of processing.
+Learn online about threads theory if needed.
+
+Thread states –
+New  - create instance of thread class. Thread t1=new thread();
+Runnable - <threadname>.start – then it becomes runnable.
+Running – thread scheduler has picked thread for running.
+Not runnable or blocked. – thread not eligible yet to run. 
+Terminated. – run method is completed, so work over.
+
+Thread scheduler – for picking up the threads to run.
+Which thread should run.
+Two methodologies-
+Preemptive
+And time slicing.
+Preemptive – picks thread with highest priority.
+Time slicing- task runs for specific time and comes back to pool of task.
+
